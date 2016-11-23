@@ -1,0 +1,14 @@
+# file permissions: rwxr-xr-x
+# umask 022
+
+#Add scp/rsync zsh aliases
+#alias rsync='noglob rsync'
+
+#Add xdg-open alias and personal aliases
+alias go='xdg-open'
+alias msub1='ssh mendozah@metasub1.ruf.uni-freiburg.de'
+alias aadPoolB='ssh mendozah@aadpoolb.informatik.uni-freiburg.de'
+alias smac-210='/home/hmendoza/workspace/smac-v2.10-master/smac'
+alias thesis_dir='/home/hmendoza/workspace/master_arbeit/auto-deep/'
+alias gpu_track='/home/hmendoza/workspace/master_arbeit/gputrack/'
+alias clion='/home/hmendoza/clion/clion-2016.2.1/bin/clion.sh'

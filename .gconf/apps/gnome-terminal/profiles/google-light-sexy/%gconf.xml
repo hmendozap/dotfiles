@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="update_records" mtime="1437915331" type="bool" value="true"/>
+	<entry name="custom_command" mtime="1465323925" type="string">
+		<stringvalue>zsh</stringvalue>
+	</entry>
+	<entry name="exit_action" mtime="1465323925" type="string">
+		<stringvalue>hold</stringvalue>
+	</entry>
+	<entry name="use_custom_command" mtime="1437915331" type="bool" value="false"/>
+	<entry name="login_shell" mtime="1437915285" type="bool" value="false"/>
+	<entry name="title_mode" mtime="1465323925" type="string">
+		<stringvalue>after</stringvalue>
+	</entry>
+	<entry name="title" mtime="1465323925" type="string">
+		<stringvalue>HDMP</stringvalue>
+	</entry>
+	<entry name="default_size_rows" mtime="1465323925" type="int" value="32"/>
+	<entry name="default_size_columns" mtime="1465323925" type="int" value="134"/>
+	<entry name="use_custom_default_size" mtime="1465323925" type="bool" value="true"/>
+	<entry name="font" mtime="1465323925" type="string">
+		<stringvalue>M+ 1m Ultra-Light 11</stringvalue>
+	</entry>
+	<entry name="use_system_font" mtime="1465323925" type="bool" value="false"/>
+	<entry name="use_theme_background" mtime="1434461237" type="bool" value="false"/>
+	<entry name="use_theme_colors" mtime="1465323925" type="bool" value="false"/>
+	<entry name="bold_color_same_as_fg" mtime="1434461237" type="bool" value="true"/>
+	<entry name="bold_color" mtime="1465323925" type="string">
+		<stringvalue>#37373B3B4141</stringvalue>
+	</entry>
+	<entry name="foreground_color" mtime="1465323925" type="string">
+		<stringvalue>#37373B3B4141</stringvalue>
+	</entry>
+	<entry name="background_color" mtime="1465323925" type="string">
+		<stringvalue>#FFFFFFFFFFFF</stringvalue>
+	</entry>
+	<entry name="palette" mtime="1465323925" type="string">
+		<stringvalue>#1D1D1F1F2121:#CCCC34342B2B:#191988884444:#FBFBA9A92222:#39397171EDED:#A3A36A6AC7C7:#39397171EDED:#C5C5C8C8C6C6:#969698989696:#CCCC34342B2B:#191988884444:#FBFBA9A92222:#39397171EDED:#A3A36A6AC7C7:#39397171EDED:#FFFFFFFFFFFF</stringvalue>
+	</entry>
+	<entry name="visible_name" mtime="1465323925" type="string">
+		<stringvalue>google_light</stringvalue>
+	</entry>
+</gconf>

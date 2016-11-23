@@ -1,0 +1,41 @@
+[global_config]
+  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  always_split_with_profile = True
+[keybindings]
+[profiles]
+  [[default]]
+    background_darkness = 0.3
+    palette = "#020000:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    font = Inconsolata Medium 11
+    background_image = None
+  [[Gruvbox]]
+    palette = "#282828:#cc241d:#98971a:#d79921:#458588:#b16286:#689d6a:#a89984:#928374:#fb4934:#b8bb26:#fabd2f:#83a598:#d3869b:#8ec07c:#ebdbb2"
+    background_image = None
+    background_darkness = 0.77
+    background_type = transparent
+    use_system_font = False
+    cursor_color = "#ebdbb2"
+    foreground_color = "#ebdbb2"
+    font = M+ 1mn Ultra-Light 12
+    background_color = "#1d2021"
+  [[googleDark]]
+    palette = "#484848:#cc342b:#198844:#fba922:#3971ed:#a36ac7:#3971ed:#c5c8c6:#969896:#cc342b:#198844:#fba922:#3971ed:#a36ac7:#3971ed:#ffffff"
+    background_image = None
+    background_darkness = 0.3
+    use_system_font = False
+    cursor_color = "#c5c8c6"
+    foreground_color = "#c5c8c6"
+    font = M+ 1mn Ultra-Light 12
+    background_color = "#1d1f21"
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = Gruvbox
+    [[[window0]]]
+      type = Window
+      parent = ""
+      size = 900, 600
+      profile = Gruvbox
+[plugins]

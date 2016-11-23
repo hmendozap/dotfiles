@@ -1,0 +1,10 @@
+[user]
+    email = heist.mendoza@gmail.com
+    name = hmendozap
+
+[filter "pathignore"]
+    clean = "sed 's/dataset_dir = .*/dataset_dir = /'"
+    smudge = ~/git_scripts/local_dataset.sh
+    # smudge = "sed \"s/dataset_dir =.*/dataset_dir = 'auaoe'/\""
+[push]
+	default = simple

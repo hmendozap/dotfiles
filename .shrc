@@ -1,0 +1,37 @@
+## Common exports, aliases and functions for zsh and bash
+
+# file permissions: rwxr-xr-x
+# umask 022
+
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/android-studio/bin"
+# export MANPATH="/usr/local/man:$MANPATH"
+export PYTHONPATH="/home/hmendoza/workspace/master_arbeit/auto-deep/auto-sklearn/autosklearn/binaries:/home/hmendoza/workspace/master_arbeit/auto-deep/auto-sklearn/scripts:$PYTHONPATH"
+
+export JAVA_HOME="/usr/local/java/jdk1.8.0_45/jre"
+export PATH="$PATH:$JAVA_HOME/bin"
+
+# Initialization commands for virtual python environments
+source /usr/local/bin/virtualenvwrapper_lazy.sh
+export WORKON_HOME=$HOME/.virtual_envs
+
+# Extra ls alias also puts colors on files
+#alias ls='ls -X'
+if [ -x /usr/bin/dircolors ]; then
+    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+    alias ls='ls --color=auto -X'
+    alias grep='grep --color=auto'
+    alias fgrep='fgrep --color=auto'
+    alias egrep='egrep --color=auto'
+fi
+
+#Add scp/rsync zsh aliases
+#alias rsync='noglob rsync'
+
+#Add gvim alias for maximized window
+alias gvim='gvim -c "call Maximize_Window()"'
+
+#Add xdg-open alias and personal aliases
+alias go='xdg-open'
+alias smac-210='/home/hmendoza/workspace/smac-v2.10-master/smac'
+alias thesis_dir='/home/hmendoza/workspace/master_arbeit/auto-deep/'
+alias gpu_track='/home/hmendoza/workspace/master_arbeit/gputrack/'

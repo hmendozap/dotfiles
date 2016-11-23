@@ -1,0 +1,16 @@
+[global]
+floatX = float32
+int_division = floatX
+cast_policy = numpy+floatX
+base_compiledir = /home/hmendoza/workspace/master_arbeit/gputrack/theano_compiling
+compiledir = /home/hmendoza/workspace/master_arbeit/gputrack/theano_compiling_dyn
+warn_float64 = ignore
+optimizer = fast_run
+#optimizer_verbose = True
+
+[nvcc]
+use_fast_math = True
+fastmath = True
+
+[blas]
+ldflags = -L/opt/openblas/lib -lopenblas

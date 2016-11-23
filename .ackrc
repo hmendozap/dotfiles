@@ -1,0 +1,8 @@
+## ACK CONFIGURATION FILE - HDMP ##
+
+# Always sort files
+--sort-files
+
+# Add CommaSeparatedValues to extension type
+# format is --type-set=TYPENAME:FILTER:FILTERARGS
+--type-set=csv:ext:csv

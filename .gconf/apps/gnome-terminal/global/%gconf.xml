@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="default_profile" mtime="1434461384" type="string">
+		<stringvalue>google-light-sexy</stringvalue>
+	</entry>
+	<entry name="profile_list" mtime="1434461236" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>Default</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>google-light-sexy</stringvalue>
+		</li>
+	</entry>
+</gconf>
